@@ -38,3 +38,17 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
 }
 
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = 'com.github.imarul16'
+            artifactId = 'ToasterTest'
+            version = '1.0.8'
+
+            afterEvaluate {
+                println("Components: " + components*.name)
+            }
+        }
+    }
+}
+
