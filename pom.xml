@@ -1,0 +1,12 @@
+<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+<dependency>
+    <groupId>com.github.imarul16</groupId>
+    <artifactId>ToasterTest</artifactId>
+    <version>1.0.7</version>
+</dependency>
