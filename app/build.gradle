@@ -2,6 +2,8 @@ plugins {
     id 'com.android.application'
 }
 
+group = 'com.github.imarul16'
+
 android {
     namespace 'com.toast.toasttertest'
     compileSdk 33
