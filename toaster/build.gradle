@@ -44,7 +44,7 @@ publishing {
         release(MavenPublication) {
             groupId = 'com.github.imarul16'
             artifactId = 'ToasterTest'
-            version = '1.0.8'
+            version = '1.0.9'
 
             afterEvaluate {
                 println("Components: " + components*.name)
